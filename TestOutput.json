@@ -1,0 +1,1767 @@
+{
+  "name": "blue",
+  "countries": {
+    "1": {
+      "planes": {
+        "groups": {
+          "1": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "Al Minhad AB - F/A-18C 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "Al Minhad AB - F/A-18C 2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "Al Minhad AB - F/A-18C 3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "Al Minhad AB - F/A-18C 4"
+              }
+            },
+            "name": "Al Minhad AB - F/A-18C",
+            "hidden": false
+          }
+        }
+      },
+      "name": "Australia"
+    },
+    "2": {
+      "planes": {
+        "groups": {
+          "1": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "MiG-21Bis",
+                "name": "Al Dhafra AB - MiG-21Bis 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "MiG-21Bis",
+                "name": "Al Dhafra AB - MiG-21Bis 2"
+              }
+            },
+            "name": "Al Dhafra AB - MiG-21Bis",
+            "hidden": false
+          }
+        }
+      },
+      "name": "Egypt"
+    },
+    "3": {
+      "planes": {
+        "groups": {
+          "1": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "MiG-29A",
+                "name": "Al Dhafra AB - MiG-29A 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "MiG-29A",
+                "name": "Al Dhafra AB - MiG-29A 2"
+              }
+            },
+            "name": "Al Dhafra AB - MiG-29A",
+            "hidden": false
+          },
+          "2": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "MiG-29S",
+                "name": "Al Dhafra AB - MiG-29S 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "MiG-29S",
+                "name": "Al Dhafra AB - MiG-29S 2"
+              }
+            },
+            "name": "Al Dhafra AB - MiG-29S",
+            "hidden": false
+          },
+          "3": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "Su-27",
+                "name": "Al Dhafra AB - Su-27 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "Su-27",
+                "name": "Al Dhafra AB - Su-27 2"
+              }
+            },
+            "name": "Al Dhafra AB - Su-27",
+            "hidden": false
+          },
+          "4": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "Su-33",
+                "name": "Al Dhafra AB - Su-33 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "Su-33",
+                "name": "Al Dhafra AB - Su-33 2"
+              }
+            },
+            "name": "Al Dhafra AB - Su-33",
+            "hidden": false
+          },
+          "5": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "J-11A",
+                "name": "Al Dhafra AB - J-11A 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "J-11A",
+                "name": "Al Dhafra AB - J-11A 2"
+              }
+            },
+            "name": "Al Dhafra AB - J-11A",
+            "hidden": false
+          },
+          "6": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "Su-25",
+                "name": "Al Dhafra AB - Su-25 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "Su-25",
+                "name": "Al Dhafra AB - Su-25 2"
+              }
+            },
+            "name": "Al Dhafra AB - Su-25",
+            "hidden": false
+          },
+          "7": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "Su-25T",
+                "name": "Al Dhafra AB - Su-25T 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "Su-25T",
+                "name": "Al Dhafra AB - Su-25T 2"
+              }
+            },
+            "name": "Al Dhafra AB - Su-25T",
+            "hidden": false
+          },
+          "8": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "MiG-15bis",
+                "name": "Al Dhafra AB - MiG-15bis 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "MiG-15bis",
+                "name": "Al Dhafra AB - MiG-15bis 2"
+              }
+            },
+            "name": "Al Dhafra AB - MiG-15bis",
+            "hidden": false
+          },
+          "9": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "MiG-19P",
+                "name": "Al Dhafra AB - MiG-19P 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "MiG-19P",
+                "name": "Al Dhafra AB - MiG-19P 2"
+              }
+            },
+            "name": "Al Dhafra AB - MiG-19P",
+            "hidden": false
+          }
+        }
+      },
+      "name": "USAF Aggressors"
+    },
+    "4": {
+      "planes": {
+        "groups": {
+          "1": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "F-14B",
+                "name": "CVN-72 Abraham Lincoln - F-14B 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "F-14B",
+                "name": "CVN-72 Abraham Lincoln - F-14B 2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "F-14B",
+                "name": "CVN-72 Abraham Lincoln - F-14B 3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "F-14B",
+                "name": "CVN-72 Abraham Lincoln - F-14B 4"
+              }
+            },
+            "name": "CVN-72 Abraham Lincoln - F-14B",
+            "hidden": false
+          },
+          "2": {
+            "units": {
+              "1": {
+                "skill": "High",
+                "type": "F-15C",
+                "name": "USAF F-15C 1"
+              },
+              "2": {
+                "skill": "High",
+                "type": "F-15C",
+                "name": "USAF F-15C 2"
+              }
+            },
+            "name": "USAF F-15C",
+            "hidden": false
+          },
+          "3": {
+            "units": {
+              "1": {
+                "skill": "High",
+                "type": "F-16C_50",
+                "name": "USAF F-16C 1"
+              },
+              "2": {
+                "skill": "High",
+                "type": "F-16C_50",
+                "name": "USAF F-16C 2"
+              }
+            },
+            "name": "USAF F-16C",
+            "hidden": false
+          },
+          "4": {
+            "units": {
+              "1": {
+                "skill": "High",
+                "type": "F-14B",
+                "name": "USAF F-14B 1"
+              },
+              "2": {
+                "skill": "High",
+                "type": "F-14B",
+                "name": "USAF F-14B 2"
+              }
+            },
+            "name": "USAF F-14B",
+            "hidden": false
+          },
+          "5": {
+            "units": {
+              "1": {
+                "skill": "High",
+                "type": "FA-18C_hornet",
+                "name": "USAF F/A-18C 1"
+              },
+              "2": {
+                "skill": "High",
+                "type": "FA-18C_hornet",
+                "name": "USAF F/A-18C 2"
+              }
+            },
+            "name": "USAF F/A-18C",
+            "hidden": false
+          },
+          "6": {
+            "units": {
+              "1": {
+                "skill": "Excellent",
+                "type": "C-130",
+                "name": "USAF C-130"
+              }
+            },
+            "name": "USAF C-130",
+            "hidden": false
+          },
+          "7": {
+            "units": {
+              "1": {
+                "skill": "High",
+                "type": "F-15C",
+                "name": "USAEF F-15C 1"
+              },
+              "2": {
+                "skill": "High",
+                "type": "F-15C",
+                "name": "USAEF F-15C 2"
+              }
+            },
+            "name": "USAEF F-15C",
+            "hidden": false
+          },
+          "8": {
+            "units": {
+              "1": {
+                "skill": "High",
+                "type": "F-16C bl.52d",
+                "name": "USAEF F-16C 1"
+              },
+              "2": {
+                "skill": "High",
+                "type": "F-16C bl.52d",
+                "name": "USAEF F-16C 2"
+              }
+            },
+            "name": "USAEF F-16C",
+            "hidden": false
+          },
+          "9": {
+            "units": {
+              "1": {
+                "skill": "High",
+                "type": "A-10C",
+                "name": "USAEF A-10C 1"
+              },
+              "2": {
+                "skill": "High",
+                "type": "A-10C",
+                "name": "USAEF A-10C 2"
+              }
+            },
+            "name": "USAEF A-10C",
+            "hidden": false
+          },
+          "10": {
+            "units": {
+              "1": {
+                "skill": "High",
+                "type": "FA-18C_hornet",
+                "name": "USAEF F/A-18C 1"
+              },
+              "2": {
+                "skill": "High",
+                "type": "FA-18C_hornet",
+                "name": "USAEF F/A-18C 2"
+              }
+            },
+            "name": "USAEF F/A-18C",
+            "hidden": false
+          },
+          "11": {
+            "units": {
+              "1": {
+                "skill": "High",
+                "type": "F-15E",
+                "name": "USAEF F-15E 1"
+              },
+              "2": {
+                "skill": "High",
+                "type": "F-15E",
+                "name": "USAEF F-15E 2"
+              }
+            },
+            "name": "USAEF F-15E",
+            "hidden": false
+          },
+          "12": {
+            "units": {
+              "1": {
+                "skill": "High",
+                "type": "F-117A",
+                "name": "USAEF F-117A 1"
+              },
+              "2": {
+                "skill": "High",
+                "type": "F-117A",
+                "name": "USAEF F-117A 2"
+              }
+            },
+            "name": "USAEF F-117A",
+            "hidden": false
+          },
+          "13": {
+            "units": {
+              "1": {
+                "skill": "Excellent",
+                "type": "MQ-9 Reaper",
+                "name": "USAEF MQ-9 Aerial Drone"
+              }
+            },
+            "name": "USAEF MQ-9 Aerial Drone",
+            "hidden": false
+          },
+          "14": {
+            "units": {
+              "1": {
+                "skill": "Excellent",
+                "type": "E-3A",
+                "name": "USAF AWACS"
+              }
+            },
+            "name": "USAF AWACS",
+            "hidden": false
+          },
+          "15": {
+            "units": {
+              "1": {
+                "skill": "Excellent",
+                "type": "KC135MPRS",
+                "name": "22nd ARW Texaco"
+              }
+            },
+            "name": "22nd ARW Texaco",
+            "hidden": false
+          },
+          "16": {
+            "units": {
+              "1": {
+                "skill": "Excellent",
+                "type": "KC-135",
+                "name": "22nd ARW Shell"
+              }
+            },
+            "name": "22nd ARW Shell",
+            "hidden": false
+          },
+          "17": {
+            "units": {
+              "1": {
+                "skill": "Excellent",
+                "type": "S-3B Tanker",
+                "name": "22nd ARW Arco"
+              }
+            },
+            "name": "22nd ARW Arco",
+            "hidden": false
+          },
+          "18": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "F-16C_50",
+                "name": "Al Minhad AB - F-16C 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "F-16C_50",
+                "name": "Al Minhad AB - F-16C 2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "F-16C_50",
+                "name": "Al Minhad AB - F-16C 3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "F-16C_50",
+                "name": "Al Minhad AB - F-16C 4"
+              }
+            },
+            "name": "Al Minhad AB - F-16C",
+            "hidden": false
+          },
+          "19": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "A-10C_2",
+                "name": "Al Minhad AB - A-10C II 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "A-10C_2",
+                "name": "Al Minhad AB - A-10C II 2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "A-10C_2",
+                "name": "Al Minhad AB - A-10C II 3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "A-10C_2",
+                "name": "Al Minhad AB - A-10C II 4"
+              }
+            },
+            "name": "Al Minhad AB - A-10C II",
+            "hidden": false
+          },
+          "20": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "F-86F Sabre",
+                "name": "Al Dhafra AB - F-86F 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "F-86F Sabre",
+                "name": "Al Dhafra AB - F-86F 2"
+              }
+            },
+            "name": "Al Dhafra AB - F-86F",
+            "hidden": false
+          },
+          "21": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "AV8BNA",
+                "name": "Al Minhad AB - AV-8B N/A 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "AV8BNA",
+                "name": "Al Minhad AB - AV-8B N/A 2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "AV8BNA",
+                "name": "Al Minhad AB - AV-8B N/A 3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "AV8BNA",
+                "name": "Al Minhad AB - AV-8B N/A 4"
+              }
+            },
+            "name": "Al Minhad AB - AV-8B N/A",
+            "hidden": false
+          },
+          "22": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "A-10A",
+                "name": "Al Dhafra AB - A-10A 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "A-10A",
+                "name": "Al Dhafra AB - A-10A 2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "A-10A",
+                "name": "Al Dhafra AB - A-10A 3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "A-10A",
+                "name": "Al Dhafra AB - A-10A 4"
+              }
+            },
+            "name": "Al Dhafra AB - A-10A",
+            "hidden": false
+          },
+          "23": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "F-5E-3",
+                "name": "Al Dhafra AB - F-5E-3"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "F-5E-3",
+                "name": "Al Dhafra AB - F-5E-3 2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "F-5E-3",
+                "name": "Al Dhafra AB - F-5E-3 3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "F-5E-3",
+                "name": "Al Dhafra AB - F-5E-3 4"
+              }
+            },
+            "name": "Al Dhafra AB - F-5E-3",
+            "hidden": false
+          },
+          "24": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "F-14B",
+                "name": "Al Dhafra AB - F-14B 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "F-14B",
+                "name": "Al Dhafra AB - F-14B 2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "F-14B",
+                "name": "Al Dhafra AB - F-14B 3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "F-14B",
+                "name": "Al Dhafra AB - F-14B 4"
+              }
+            },
+            "name": "Al Dhafra AB - F-14B",
+            "hidden": false
+          },
+          "25": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "F-16C_50",
+                "name": "Al Dhafra AB - F-16C 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "F-16C_50",
+                "name": "Al Dhafra AB - F-16C 2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "F-16C_50",
+                "name": "Al Dhafra AB - F-16C 3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "F-16C_50",
+                "name": "Al Dhafra AB - F-16C 4"
+              }
+            },
+            "name": "Al Dhafra AB - F-16C",
+            "hidden": false
+          },
+          "26": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "Al Dhafra AB - F/A-18C 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "Al Dhafra AB - F/A-18C 2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "Al Dhafra AB - F/A-18C 3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "Al Dhafra AB - F/A-18C 4"
+              }
+            },
+            "name": "Al Dhafra AB - F/A-18C",
+            "hidden": false
+          },
+          "27": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "AV8BNA",
+                "name": "Al Dhafra AB - AV-8B N/A 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "AV8BNA",
+                "name": "Al Dhafra AB - AV-8B N/A 2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "AV8BNA",
+                "name": "Al Dhafra AB - AV-8B N/A 3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "AV8BNA",
+                "name": "Al Dhafra AB - AV-8B N/A 4"
+              }
+            },
+            "name": "Al Dhafra AB - AV-8B N/A",
+            "hidden": false
+          },
+          "28": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "A-10C_2",
+                "name": "Al Dhafra AB - A-10C II 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "A-10C_2",
+                "name": "Al Dhafra AB - A-10C II 2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "A-10C_2",
+                "name": "Al Dhafra AB - A-10C II 3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "A-10C_2",
+                "name": "Al Dhafra AB - A-10C II 4"
+              }
+            },
+            "name": "Al Dhafra AB - A-10C II",
+            "hidden": false
+          },
+          "29": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "CVN-72 Abraham Lincoln - F/A-18C 2 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "CVN-72 Abraham Lincoln - F/A-18C 2 2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "CVN-72 Abraham Lincoln - F/A-18C 2 3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "CVN-72 Abraham Lincoln - F/A-18C 2 4"
+              }
+            },
+            "name": "CVN-72 Abraham Lincoln - F/A-18C 2",
+            "hidden": false
+          },
+          "30": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "A-10C",
+                "name": "Al Dhafra AB - A-10C 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "A-10C",
+                "name": "Al Dhafra AB - A-10C 2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "A-10C",
+                "name": "Al Dhafra AB - A-10C 3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "A-10C",
+                "name": "Al Dhafra AB - A-10C 4"
+              }
+            },
+            "name": "Al Dhafra AB - A-10C",
+            "hidden": false
+          },
+          "31": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "A-10C",
+                "name": "Al Minhad AB - A-10C 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "A-10C",
+                "name": "Al Minhad AB - A-10C 2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "A-10C",
+                "name": "Al Minhad AB - A-10C 3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "A-10C",
+                "name": "Al Minhad AB - A-10C 4"
+              }
+            },
+            "name": "Al Minhad AB - A-10C",
+            "hidden": false
+          },
+          "32": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "CVN-72 Abraham Lincoln - F/A-18C 1 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "CVN-72 Abraham Lincoln - F/A-18C 1 2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "CVN-72 Abraham Lincoln - F/A-18C 1 3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "CVN-72 Abraham Lincoln - F/A-18C 1 4"
+              }
+            },
+            "name": "CVN-72 Abraham Lincoln - F/A-18C 1",
+            "hidden": false
+          },
+          "33": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "F-14A-135-GR",
+                "name": "CVN-72 Abraham Lincoln - F-14A 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "F-14A-135-GR",
+                "name": "CVN-72 Abraham Lincoln - F-14A 2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "F-14A-135-GR",
+                "name": "CVN-72 Abraham Lincoln - F-14A 3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "F-14A-135-GR",
+                "name": "CVN-72 Abraham Lincoln - F-14A 4"
+              }
+            },
+            "name": "CVN-72 Abraham Lincoln - F-14A",
+            "hidden": false
+          },
+          "34": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "F-14A-135-GR",
+                "name": "Al Dhafra AB - F-14A 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "F-14A-135-GR",
+                "name": "Al Dhafra AB - F-14A 2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "F-14A-135-GR",
+                "name": "Al Dhafra AB - F-14A 3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "F-14A-135-GR",
+                "name": "Al Dhafra AB - F-14A 4"
+              }
+            },
+            "name": "Al Dhafra AB - F-14A",
+            "hidden": false
+          },
+          "35": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "F-15C",
+                "name": "Al Minhad AB - F-15C 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "F-15C",
+                "name": "Al Minhad AB - F-15C 2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "F-15C",
+                "name": "Al Minhad AB - F-15C 3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "F-15C",
+                "name": "Al Minhad AB - F-15C 4"
+              }
+            },
+            "name": "Al Minhad AB - F-15C",
+            "hidden": false
+          },
+          "36": {
+            "units": {
+              "1": {
+                "skill": "High",
+                "type": "B-1B",
+                "name": "USAF B-1B"
+              }
+            },
+            "name": "USAF B-1B",
+            "hidden": false
+          },
+          "37": {
+            "units": {
+              "1": {
+                "skill": "High",
+                "type": "B-52H",
+                "name": "USAF B-52H"
+              }
+            },
+            "name": "USAF B-52H",
+            "hidden": false
+          },
+          "38": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "F-15C",
+                "name": "Al Dhafra AB - F-15C 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "F-15C",
+                "name": "Al Dhafra AB - F-15C 2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "F-15C",
+                "name": "Al Dhafra AB - F-15C 3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "F-15C",
+                "name": "Al Dhafra AB - F-15C 4"
+              }
+            },
+            "name": "Al Dhafra AB - F-15C",
+            "hidden": false
+          },
+          "39": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "AV8BNA",
+                "name": "Tarawa AV8-1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "AV8BNA",
+                "name": "Tarawa AV8-2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "AV8BNA",
+                "name": "Tarawa AV8-3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "AV8BNA",
+                "name": "Tarawa AV8-4"
+              }
+            },
+            "name": "Tarawa AV8",
+            "hidden": false
+          },
+          "40": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "F-14B",
+                "name": "Forrestall F14B-1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "F-14B",
+                "name": "Forrestall F14B-2"
+              }
+            },
+            "name": "Forrestall F14B",
+            "hidden": false
+          },
+          "41": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "F-16C_50",
+                "name": "Khasab F-16C-1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "F-16C_50",
+                "name": "Khasab F-16C-2"
+              }
+            },
+            "name": "Khasab F-16C BLUE",
+            "hidden": false
+          },
+          "42": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "Khasab F-18-1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "Khasab F-18-2"
+              }
+            },
+            "name": "Khasab F-18 BLUE",
+            "hidden": false
+          },
+          "43": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "F-5E-3",
+                "name": "Khasab F-5-1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "F-5E-3",
+                "name": "Khasab F-5-2"
+              }
+            },
+            "name": "Khasab F-5 BLUE",
+            "hidden": false
+          },
+          "44": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "M-2000C",
+                "name": "Khasab M-2000-1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "M-2000C",
+                "name": "Khasab M-2000-2"
+              }
+            },
+            "name": "Khasab M-2000",
+            "hidden": false
+          },
+          "45": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "F-16C_50",
+                "name": "Bandar Abbas F16-1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "F-16C_50",
+                "name": "Bandar Abbas F16-2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "F-16C_50",
+                "name": "Bandar Abbas F16-3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "F-16C_50",
+                "name": "Bandar Abbas F16-4"
+              }
+            },
+            "name": "Bandar Abbas F16 BLUE",
+            "hidden": false
+          },
+          "46": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "Bandar Abbas F18-1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "Bandar Abbas F18-2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "Bandar Abbas F18-3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "Bandar Abbas F18-4"
+              }
+            },
+            "name": "Bandar Abbas F18 BLUE",
+            "hidden": false
+          },
+          "47": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "M-2000C",
+                "name": "Bandar Abbas M2000-1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "M-2000C",
+                "name": "Bandar Abbas M2000-2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "M-2000C",
+                "name": "Bandar Abbas M2000-3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "M-2000C",
+                "name": "Bandar Abbas M2000-4"
+              }
+            },
+            "name": "Bandar Abbas M2000",
+            "hidden": false
+          },
+          "48": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "F-5E-3",
+                "name": "Bandar Abbas F5-1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "F-5E-3",
+                "name": "Bandar Abbas F5-2"
+              }
+            },
+            "name": "Bandar Abbas F5 BLUE",
+            "hidden": false
+          },
+          "49": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "F-16C_50",
+                "name": "Aerial-1-1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "F-16C_50",
+                "name": "Ras Al Khaimah F16-1"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "F-16C_50",
+                "name": "Ras Al Khaimah F16-2"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "F-16C_50",
+                "name": "Ras Al Khaimah F16-3"
+              }
+            },
+            "name": "Ras Al Khaimah F16",
+            "hidden": false
+          },
+          "50": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "Ras Al Khaimah F18-1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "Ras Al Khaimah F18-2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "Ras Al Khaimah F18-3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "Ras Al Khaimah F18-4"
+              }
+            },
+            "name": "Ras Al Khaimah F18",
+            "hidden": false
+          },
+          "51": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "F-5E-3",
+                "name": "Ras Al Khaimah F5-1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "F-5E-3",
+                "name": "Ras Al Khaimah F5-2"
+              }
+            },
+            "name": "Ras Al Khaimah F5",
+            "hidden": false
+          },
+          "52": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "A-10C",
+                "name": "Aerial-1-2"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "A-10C",
+                "name": "Aerial-1-3"
+              }
+            },
+            "name": "Forrestal A4",
+            "hidden": false
+          },
+          "53": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "A-10C",
+                "name": "Aerial-1-4"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "A-10C",
+                "name": "Abe A4-1"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "A-10C",
+                "name": "Abe A4-2"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "A-10C",
+                "name": "Abe A4-3"
+              }
+            },
+            "name": "Abe A4",
+            "hidden": false
+          },
+          "54": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "A-10C",
+                "name": "Aerial-1-5"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "A-10C",
+                "name": "Aerial-1-6"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "A-10C",
+                "name": "Aerial-1-7"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "A-10C",
+                "name": "Aerial-1-8"
+              }
+            },
+            "name": "Al Dhafra A4",
+            "hidden": false
+          },
+          "55": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "F-22A",
+                "name": "Al Minhad F22-1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "F-22A",
+                "name": "Al Minhad F22-2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "F-22A",
+                "name": "Al Minhad F22-3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "F-22A",
+                "name": "Al Minhad F22-4"
+              }
+            },
+            "name": "Al Minhad F22",
+            "hidden": false
+          },
+          "56": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "Abe Lincoln F-18"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "Abe Lincoln F-18-2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "Abe Lincoln F-18-3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "Abe Lincoln F-18-4"
+              }
+            },
+            "name": "Abe Lincoln F-18",
+            "hidden": false
+          },
+          "57": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "A-10C",
+                "name": "Abe Lincoln A4"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "A-10C",
+                "name": "Abe Lincoln A4-2"
+              }
+            },
+            "name": "Abe Lincoln A4",
+            "hidden": false
+          },
+          "58": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "Aerial-3-1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "Qesm F18-1"
+              }
+            },
+            "name": "Qesm F18",
+            "hidden": false
+          },
+          "59": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "F-16C_50",
+                "name": "Qesm F18-1-1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "F-16C_50",
+                "name": "Qesm F18-1-2"
+              }
+            },
+            "name": "Qesm F18-1",
+            "hidden": false
+          },
+          "60": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "F-16C_50",
+                "name": "Qesm F16-2"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "F-16C_50",
+                "name": "Qesm F18-2-2"
+              }
+            },
+            "name": "Qesm F16-2",
+            "hidden": false
+          },
+          "61": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "F-16C_50",
+                "name": "Qesm F16"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "F-16C_50",
+                "name": "Qesm F18-3-2"
+              }
+            },
+            "name": "Qesm F16",
+            "hidden": false
+          },
+          "62": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "A-10C",
+                "name": "Qesm F18-4-1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "A-10C",
+                "name": "Qesm F18-4-2"
+              }
+            },
+            "name": "Qesm A10",
+            "hidden": false
+          }
+        }
+      },
+      "name": "USA"
+    },
+    "5": {
+      "planes": {
+        "groups": {
+          "1": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "MiG-29G",
+                "name": "Al Dhafra AB - MiG-29G 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "MiG-29G",
+                "name": "Al Dhafra AB - MiG-29G 2"
+              }
+            },
+            "name": "Al Dhafra AB - MiG-29G",
+            "hidden": false
+          }
+        }
+      },
+      "name": "Germany"
+    },
+    "6": {
+      "planes": {
+        "groups": {
+          "1": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "JF-17",
+                "name": "Al Dhafra AB - JF-17 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "JF-17",
+                "name": "Al Dhafra AB - JF-17 2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "JF-17",
+                "name": "Al Dhafra AB - JF-17 3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "JF-17",
+                "name": "Al Dhafra AB - JF-17 4"
+              }
+            },
+            "name": "Al Dhafra AB - JF-17",
+            "hidden": false
+          }
+        }
+      },
+      "name": "Pakistan"
+    },
+    "7": {
+      "planes": {
+        "groups": {
+          "1": {
+            "units": {
+              "1": {
+                "skill": "High",
+                "type": "M-2000C",
+                "name": "UAEAF M-2000C 1"
+              },
+              "2": {
+                "skill": "High",
+                "type": "M-2000C",
+                "name": "UAEAF M-2000C 2"
+              }
+            },
+            "name": "UAEAF M-2000C",
+            "hidden": false
+          },
+          "2": {
+            "units": {
+              "1": {
+                "skill": "High",
+                "type": "F-16C_50",
+                "name": "UAEAF F-16C 1"
+              },
+              "2": {
+                "skill": "High",
+                "type": "F-16C_50",
+                "name": "UAEAF F-16C 2"
+              }
+            },
+            "name": "UAEAF F-16C",
+            "hidden": false
+          },
+          "3": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "M-2000C",
+                "name": "Al Dhafra AB - M-2000C 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "M-2000C",
+                "name": "Al Dhafra AB - M-2000C 2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "M-2000C",
+                "name": "Al Dhafra AB - M-2000C 3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "M-2000C",
+                "name": "Al Dhafra AB - M-2000C 4"
+              }
+            },
+            "name": "Al Dhafra AB - M-2000C",
+            "hidden": false
+          },
+          "4": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "F-5E-3",
+                "name": "Fujarah F5"
+              }
+            },
+            "name": "Fujarah F5 BLUE",
+            "hidden": false
+          },
+          "5": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "F-16C_50",
+                "name": "Fujarah F16"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "F-16C_50",
+                "name": "Fujarah F16 BLUE-1"
+              }
+            },
+            "name": "Fujarah F16 BLUE",
+            "hidden": false
+          },
+          "6": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "FA-18C_hornet",
+                "name": "Fujarah F18"
+              }
+            },
+            "name": "Fujarah F18 BLUE",
+            "hidden": false
+          }
+        }
+      },
+      "name": "United Arab Emirates"
+    },
+    "8": {
+      "planes": {
+        "groups": {
+          "1": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "AJS37",
+                "name": "Al Minhad AB - AJS37 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "AJS37",
+                "name": "Al Minhad AB - AJS37 2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "AJS37",
+                "name": "Al Minhad AB - AJS37 3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "AJS37",
+                "name": "Al Minhad AB - AJS37 4"
+              }
+            },
+            "name": "Al Minhad AB - AJS37",
+            "hidden": false
+          }
+        }
+      },
+      "name": "Sweden"
+    },
+    "9": {
+      "planes": {
+        "groups": {
+          "1": {
+            "units": {
+              "1": {
+                "skill": "High",
+                "type": "Tornado GR4",
+                "name": "RAF Tornado GR4 1"
+              },
+              "2": {
+                "skill": "High",
+                "type": "Tornado GR4",
+                "name": "RAF Tornado GR4 2"
+              }
+            },
+            "name": "RAF Tornado GR4",
+            "hidden": false
+          }
+        }
+      },
+      "name": "UK"
+    },
+    "10": {
+      "planes": null,
+      "name": "France"
+    },
+    "11": {
+      "planes": {
+        "groups": {
+          "1": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "C-101CC",
+                "name": "Al Dhafra AB - C-101CC 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "C-101CC",
+                "name": "Al Dhafra AB - C-101CC 2"
+              }
+            },
+            "name": "Al Dhafra AB - C-101CC",
+            "hidden": false
+          }
+        }
+      },
+      "name": "Jordan"
+    },
+    "12": {
+      "planes": {
+        "groups": {
+          "1": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "L-39ZA",
+                "name": "Al Dhafra AB - L-39ZA 1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "L-39ZA",
+                "name": "Al Dhafra AB - L-39ZA 2"
+              }
+            },
+            "name": "Al Dhafra AB - L-39ZA",
+            "hidden": false
+          }
+        }
+      },
+      "name": "Czech Republic"
+    },
+    "13": {
+      "planes": null,
+      "name": "Ukraine"
+    },
+    "14": {
+      "planes": null,
+      "name": "Norway"
+    },
+    "15": {
+      "planes": {
+        "groups": {
+          "1": {
+            "units": {
+              "1": {
+                "skill": "Client",
+                "type": "Su-33",
+                "name": "Carrier SU33-1"
+              },
+              "2": {
+                "skill": "Client",
+                "type": "Su-33",
+                "name": "Carrier SU33-2"
+              },
+              "3": {
+                "skill": "Client",
+                "type": "Su-33",
+                "name": "Carrier SU33-3"
+              },
+              "4": {
+                "skill": "Client",
+                "type": "Su-33",
+                "name": "Carrier SU33-4"
+              }
+            },
+            "name": "Carrier SU33",
+            "hidden": false
+          }
+        }
+      },
+      "name": "CJTF Blue"
+    }
+  }
+}
