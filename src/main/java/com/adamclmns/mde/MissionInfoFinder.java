@@ -55,32 +55,21 @@ public class MissionInfoFinder {
    * [1] = { ["id"] = 21, ["name"] = "Australia", ["plane"] = { ["group"] = { [1] =
    */
   // https://stackoverflow.com/questions/16255770/convert-lua-data-to-json
-  public static JsonNode convertLuaTableDataToJsonData(File tempFile) throws ScriptException, IOException {
+  public static String convertLuaTableDataToJsonData(File tempFile) throws IOException {
 
     String allLines = Files.readAllLines(tempFile.toPath()).stream().collect(Collectors.joining("\n"));
     logger.info("Mission File Contents Length : {}",allLines.length());
 
     allLines = executeMatcherReplaceAll(allLines,VARIABLE_DEF_REGEX,"");
     allLines = executeMatcherReplaceAll(allLines,COMMENT_REGEX,"$1");
-
     allLines= allLines.replace(FINAL_COMMENT,"");
     allLines = executeMatcherReplaceAll(allLines,EQUAL_TO_COLON_REMOVE_BRACKETS_REGEX,"$1"+":");
     allLines = executeMatcherReplaceAll(allLines,NUMBERED_KEYS_REGEX,"\""+"$1"+"\":");
     allLines = executeMatcherReplaceAll(allLines,TRAILING_COMMA_REGEX,"$1");
     allLines = allLines.replaceAll("\\\\\"","&quot;");
 
-    //logger.info("RESULT SO FAR: {}",allLines);
 
-    FileWriter fw = new FileWriter("testJsonOutput.json");
-
-
-    fw.write(allLines);
-    fw.flush();
-    fw.close();
-
-    ObjectMapper mapper = new ObjectMapper();
-    File from = new File("testJsonOutput.json");
-    return mapper.readTree(from);
+    return allLines;
   }
 
   private static String executeMatcherReplaceAll(String content, String regexPattern, String replaceExpression){
@@ -89,5 +78,6 @@ public class MissionInfoFinder {
     return matcher.replaceAll(replaceExpression);
   }
 
+//  public static mapTheInfo
 
 }
