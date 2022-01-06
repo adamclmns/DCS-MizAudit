@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
+import javax.swing.filechooser.FileSystemView;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -17,8 +18,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Properties;
 
-import static com.adamclmns.mde.PropNames.DEFAULT_MISSION_PATH;
-import static com.adamclmns.mde.PropNames.DEFAULT_OUTPUT_PATH;
+import static com.adamclmns.mde.PropNames.*;
 
 public class UserInterface {
   private static final Logger logger = LoggerFactory.getLogger(UserInterface.class);
@@ -38,23 +38,35 @@ public class UserInterface {
     this.typeConverter = new TypeConverter(mapper);
 
   }
+  private String getUserDCSDirectory(){
+    String ret = System.getProperty("user.home") + this.props.getProperty(DEFAULT_MISSION_PATH_SUFFIX);
+    logger.info("Returned User Directory: {}",ret);
+    return ret;
+  }
+  private String getUserDesktopDirectory(){
+    String ret = System.getProperty("user.home") + this.props.getProperty(DEFAULT_OUTPUT_PATH_SUFFIX);
+    logger.info("Returned User Directory: {}",ret);
+    return ret;
+  }
 
   public void main(Properties props) {
     init(props);
 
     JFileChooser missionFileChooser = new JFileChooser();
     missionFileChooser.setMultiSelectionEnabled(false);
-    missionFileChooser.setCurrentDirectory(new File(props.getProperty(DEFAULT_MISSION_PATH)));
+    missionFileChooser.setCurrentDirectory(new File(getUserDCSDirectory()));
     missionFileChooser.setFileFilter(new FileNameExtensionFilter("Mission Files", "miz"));
 
     JFileChooser missionJsonSaveChooser = new JFileChooser();
     missionJsonSaveChooser.setMultiSelectionEnabled(false);
-    missionJsonSaveChooser.setCurrentDirectory(new File(props.getProperty(DEFAULT_OUTPUT_PATH)));
+    missionJsonSaveChooser.setCurrentDirectory(new File(getUserDesktopDirectory()));
+    missionJsonSaveChooser.setSelectedFile(new File("MissionInfo.json"));
     missionJsonSaveChooser.setFileFilter(new FileNameExtensionFilter("JSON Files", "json"));
 
     JFileChooser missionCSVSaveChooser = new JFileChooser();
     missionCSVSaveChooser.setMultiSelectionEnabled(false);
-    missionCSVSaveChooser.setCurrentDirectory(new File(props.getProperty(DEFAULT_OUTPUT_PATH)));
+    missionCSVSaveChooser.setCurrentDirectory(new File(getUserDesktopDirectory()));
+    missionCSVSaveChooser.setSelectedFile(new File("MissionInfo.csv"));
     missionCSVSaveChooser.setFileFilter(new FileNameExtensionFilter("CSV Files", "csv"));
     // Declare Buttons
     JButton openMizBtn = new JButton("Open Miz File");

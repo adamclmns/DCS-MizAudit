@@ -71,11 +71,11 @@ public class TypeConverter {
     csvOutput.append("Unit Skill").append(",");
     csvOutput.append("Unit Type").append("\n");
     for (UnitDataTabular udt : unitTableData) {
-      csvOutput.append(udt.getCoalitionName()).append(",");
-      csvOutput.append(udt.getCountryName()).append(",");
-      csvOutput.append(udt.getGroupName()).append(",");
-      csvOutput.append(udt.getName()).append(",");
-      csvOutput.append(udt.getSkill()).append(",");
+      csvOutput.append("\"").append(udt.getCoalitionName()).append("\"").append(",");
+      csvOutput.append("\"").append(udt.getCountryName()).append("\"").append(",");
+      csvOutput.append("\"").append(udt.getGroupName()).append("\"").append(",");
+      csvOutput.append("\"").append(udt.getName()).append("\"").append(",");
+      csvOutput.append("\"").append(udt.getSkill()).append("\"").append(",");
       csvOutput.append(udt.getType()).append("\n");
     }
     return csvOutput.toString();
