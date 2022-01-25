@@ -9,6 +9,9 @@ import lombok.Data;
 public class Country {
     @JsonAlias("plane")
     Planes planes;
+    @JsonAlias("helicopter")
+    Helicopters helicopters;
+
     String name;
 
 }
