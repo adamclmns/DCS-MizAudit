@@ -9,4 +9,6 @@ import lombok.Data;
 public class Mission {
     @JsonAlias("coalition")
     Coalitions coalitions;
+    Triggers triggers;
+
 }

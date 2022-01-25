@@ -94,13 +94,16 @@ public class UserInterface {
             }
     );
     Container pane = this.parentFrame.getContentPane();
-    pane.setLayout(new GridLayout(3, 3, 10, 10));
+    GridLayout gridLayout = new GridLayout(8, 4, 10, 10);
+
     pane.add(openMizBtn);
     pane.add(saveMizJsonBtn);
     pane.add(saveMizCSVBtn);
 
+    pane.setLayout(gridLayout);
+
     this.parentFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    this.parentFrame.setSize(300, 200);
+    this.parentFrame.setSize(800, 600);
     this.parentFrame.setVisible(true);
   }
 
@@ -141,9 +144,12 @@ public class UserInterface {
         logger.info("Saving to {}", selectedFile.getPath());
         // Map the "raw" JSON to known types.
         Mission mission = getMissionFromJSON();
-        String csv = typeConverter.writeUnitDataTableToCSV(typeConverter.getUnitTableFromMission(mission));
+        String unitCsv = typeConverter.writeUnitDataTableToCSV(typeConverter.getUnitTableFromMission(mission));
+        String triggerCsv = typeConverter.writeZonesToCSV(typeConverter.getTriggerZoneTableFromMission(mission));
         FileWriter writer = new FileWriter(new File(selectedFile.getPath()));
-        writer.write(csv);
+        writer.write(unitCsv);
+        writer.write("\n\n\n");
+        writer.write(triggerCsv);
         writer.flush();
         writer.close();
       } catch (Exception ex) {

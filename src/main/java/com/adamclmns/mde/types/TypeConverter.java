@@ -1,6 +1,7 @@
 package com.adamclmns.mde.types;
 
 import com.adamclmns.mde.types.dcs.*;
+import com.adamclmns.mde.types.output.TriggerZoneData;
 import com.adamclmns.mde.types.output.UnitDataTabular;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.checkerframework.checker.units.qual.A;
@@ -9,6 +10,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 /** Converts from DCS Types to MDE types to allow for easier display in a tabular manner */
 public class TypeConverter {
@@ -28,7 +30,14 @@ public class TypeConverter {
     unitDataTable.addAll(getUnitTableFromCoalition(blue));
     unitDataTable.addAll(getUnitTableFromCoalition(red));
     unitDataTable.addAll(getUnitTableFromCoalition(neutral));
+
     return unitDataTable;
+  }
+
+  public List<Zone> getTriggerZoneTableFromMission(Mission mission) {
+
+    Triggers triggers = mission.getTriggers();
+    return triggers.getZones().values().stream().collect(Collectors.toList());
   }
 
   private List<UnitDataTabular> getUnitTableFromCoalition(Coalition coalition) {
@@ -59,6 +68,24 @@ public class TypeConverter {
       }
     }
     return unitDataTable;
+  }
+
+  public String writeZonesToCSV(List<Zone> zoneTableData) {
+    StringBuilder csvOutput = new StringBuilder();
+    csvOutput.append("ZoneID").append(",");
+    csvOutput.append("Name").append(",");
+    csvOutput.append("Radius").append(",");
+    csvOutput.append("Type").append(",");
+    csvOutput.append("Hidden").append(",").append("\n");
+    for (Zone zone : zoneTableData) {
+      csvOutput.append("\"").append(zone.getZoneId()).append("\"").append(",");
+      csvOutput.append("\"").append(zone.getName()).append("\"").append(",");
+      csvOutput.append("\"").append(zone.getRadius()).append("\"").append(",");
+      csvOutput.append("\"").append(zone.getType()).append("\"").append(",");
+      csvOutput.append("\"").append(zone.getHidden()).append("\"").append(",");
+      csvOutput.append("\n");
+    }
+    return csvOutput.toString();
   }
 
   public String writeUnitDataTableToCSV(List<UnitDataTabular> unitTableData) {
