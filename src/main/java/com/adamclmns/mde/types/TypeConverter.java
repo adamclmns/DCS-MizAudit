@@ -49,24 +49,45 @@ public class TypeConverter {
       if (countryPlanes != null) {
         for (Group countryPlaneGroup : countryPlanes.getGroups().values()) {
           String groupName = countryPlaneGroup.getName();
-          unitDataTable.addAll(extractGroupDataFromGroups( coalitionName, countryName, countryPlaneGroup, groupName));
+          unitDataTable.addAll(
+              extractGroupDataFromGroups(coalitionName, countryName, countryPlaneGroup, groupName));
         }
       }
       Helicopters countryHelicopters = coalitionCountry.getValue().getHelicopters();
-      if (countryHelicopters != null){
-        for(Group countryHelicopterGroup : countryHelicopters.getGroups().values()){
-          unitDataTable.addAll(extractGroupDataFromGroups(
-              coalitionName,
-              countryName,
-              countryHelicopterGroup,
-              countryHelicopterGroup.getName()));
+
+      if (countryHelicopters != null) {
+        for (Group countryHelicopterGroup : countryHelicopters.getGroups().values()) {
+          unitDataTable.addAll(
+              extractGroupDataFromGroups(
+                  coalitionName,
+                  countryName,
+                  countryHelicopterGroup,
+                  countryHelicopterGroup.getName()));
+        }
+      }
+      Vehicles countryVehicles = coalitionCountry.getValue().getVehicles();
+      if (countryVehicles != null) {
+        for (Group countryVehicleGroup : countryVehicles.getGroups().values()) {
+          unitDataTable.addAll(
+              extractGroupDataFromGroups(
+                  coalitionName, countryName, countryVehicleGroup, countryVehicleGroup.getName()));
+        }
+      }
+      Ships countryShips = coalitionCountry.getValue().getShips();
+      ;
+      if (countryShips != null) {
+        for (Group countryShipGroup : countryShips.getGroups().values()) {
+          unitDataTable.addAll(
+              extractGroupDataFromGroups(
+                  coalitionName, countryName, countryShipGroup, countryShipGroup.getName()));
         }
       }
     }
     return unitDataTable;
   }
 
-  private List<UnitDataTabular> extractGroupDataFromGroups( String coalitionName, String countryName, Group countryPlaneGroup, String groupName) {
+  private List<UnitDataTabular> extractGroupDataFromGroups(
+      String coalitionName, String countryName, Group countryPlaneGroup, String groupName) {
     List<UnitDataTabular> unitDataTabular = new ArrayList<>();
     for (Unit groupUnit : countryPlaneGroup.getUnits().values()) {
       String unitName = groupUnit.getName();
@@ -81,7 +102,8 @@ public class TypeConverter {
               .skill(unitSkill)
               .type(unitType)
               .build());
-    }return unitDataTabular;
+    }
+    return unitDataTabular;
   }
 
   public String writeZonesToCSV(List<Zone> zoneTableData) {

@@ -11,6 +11,10 @@ public class Country {
     Planes planes;
     @JsonAlias("helicopter")
     Helicopters helicopters;
+    @JsonAlias("vehicle")
+    Vehicles vehicles;
+    @JsonAlias("ship")
+    Ships ships;
 
     String name;
 
